@@ -32,9 +32,9 @@ class SquareToCircle(Scene):
         logo = ImageMobject("/Users/madhu/Documents/MadhuPersonal/learning/regression-class-cluster/Supervisor.jpg")
         logo.set_height(5)
 
-#         group = Group(logo, title)
-#         group.arrange(RIGHT)
-#         group.to_edge(UP, buff=MED_SMALL_BUFF)
+        group = Group(logo, title)
+        group.arrange(RIGHT)
+        group.to_edge(UP, buff=MED_SMALL_BUFF)
 
         #self.add(title, logo)
         self.play(ShowCreation(logo))
